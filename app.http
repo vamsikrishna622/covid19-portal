@@ -18,14 +18,15 @@ Content-Type: application/json
 
 GET http://localhost:3000/states/
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNocmlzdG9waGVyX3BoaWxsaXBzIiwiaWF0IjoxNjY0NDU0ODIzfQ.hlWV9h4cz7m5bk9htgUMFZN1Eh4wSfT9XAAovG0lu30
-
 ###
+
+
 GET http://localhost:3000/states/8/
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNocmlzdG9waGVyX3BoaWxsaXBzIiwiaWF0IjoxNjY0NDU0ODIzfQ.hlWV9h4cz7m5bk9htgUMFZN1Eh4wSfT9XAAovG0lu30
-
-
 ###
+
 POST http://localhost:3000/districts/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNocmlzdG9waGVyX3BoaWxsaXBzIiwiaWF0IjoxNjY0NDU0ODIzfQ.hlWV9h4cz7m5bk9htgUMFZN1Eh4wSfT9XAAovG0lu30
 Content-Type: application/json
 
 {
@@ -36,16 +37,19 @@ Content-Type: application/json
   "active": 315,
   "deaths": 8
 }
-
 ###
-GET http://localhost:3000/districts/322/
 
+
+GET http://localhost:3000/districts/322/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNocmlzdG9waGVyX3BoaWxsaXBzIiwiaWF0IjoxNjY0NDU0ODIzfQ.hlWV9h4cz7m5bk9htgUMFZN1Eh4wSfT9XAAovG0lu30
 ###
 
 DELETE http://localhost:3000/districts/322/
-
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNocmlzdG9waGVyX3BoaWxsaXBzIiwiaWF0IjoxNjY0NDU0ODIzfQ.hlWV9h4cz7m5bk9htgUMFZN1Eh4wSfT9XAAovG0lu30
 ###
+
 PUT http://localhost:3000/districts/3/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNocmlzdG9waGVyX3BoaWxsaXBzIiwiaWF0IjoxNjY0NDU0ODIzfQ.hlWV9h4cz7m5bk9htgUMFZN1Eh4wSfT9XAAovG0lu30
 Content-Type: application/json
 
 {
@@ -58,4 +62,5 @@ Content-Type: application/json
 }
 ###
 GET http://localhost:3000/states/2/stats/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNocmlzdG9waGVyX3BoaWxsaXBzIiwiaWF0IjoxNjY0NDU0ODIzfQ.hlWV9h4cz7m5bk9htgUMFZN1Eh4wSfT9XAAovG0lu30
 ###
